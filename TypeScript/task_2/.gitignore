@@ -1,0 +1,19 @@
+# node_modules を除外
+node_modules/
+
+# TypeScript のコンパイル結果を除外
+dist/
+build/
+
+# 環境変数ファイルを除外
+.env
+.env.local
+
+# ログファイルを除外
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# キャッシュファイルを除外
+.vscode/
+.DS_Store
